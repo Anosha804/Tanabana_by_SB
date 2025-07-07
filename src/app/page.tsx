@@ -4,110 +4,117 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-         <section className="hero-section">
-          <img
-            src="/hero.png"
-            alt="Tanabana by SB - handcrafted embroidery"
-            className="hero-image"
-          />
+      <section id="home" className="hero-simple">
+        <h1>Tanabana by SB</h1>
+        <p>Handmade ✿ Minimal ✿ Breathable</p>
       </section>
 
-
-
-
-       {/* About Section */}
       <section id="about" className="about-section">
-        <div className="container">
-          <h2 className="section-title">About Tanabana</h2>
-          <p className="section-text">
-            Tanabana by SB is a Karachi-based slow fashion label rooted in soft minimalism, hand embroidery,
-            and breathable natural fabrics. Each piece is made with care, cultural depth, and comfort in mind.
-          </p>
-          <ul className="brand-values">
-            <li>✿ Minimalism</li>
-            <li>✿ Handmade Process</li>
-            <li>✿ Affordable Fashion</li>
-            <li>✿ Cultural Elegance</li>
-            <li>✿ Comfort & Breathability</li>
-          </ul>
-        </div>
+        <h2>About Us</h2>
+        <p>
+          Tanabana by SB is a Karachi-based slow fashion label offering
+          aesthetic, breathable clothing stitched with cultural softness and
+          handmade detail. We believe in stories stitched gently — for real
+          women and everyday life.
+        </p>
       </section>
 
       <section id="collection" className="collection-section">
-  <div className="container">
-    <h2 className="section-title">First Bloom Collection 🌸</h2>
-    <div className="collection-grid">
-      <div className="collection-card">
-        <img src="/roshan_gul.webp" alt="Roshan Gul" />
-        <h3>Roshan Gul</h3>
-        <p>Blush pink kurta with hand floral stitch</p>
-      </div>
+        <div className="container">
+          <h2 className="section-title">First Bloom Collection 🌸</h2>
+          <div className="collection-grid">
+            <div className="collection-card">
+              <img src="/roshan_gul.webp" alt="Roshan Gul" />
+              <h3>Roshan Gul</h3>
+              <p>
+                Soft pink kurta with floral hand stitch. Made with pure mulmul.
+                Rs. 3,250
+              </p>
+              <a href="https://wa.me/+92xxxxxxx" className="order-button">
+                Order on WhatsApp
+              </a>
+            </div>
 
-      <div className="collection-card">
-        <img src="/zard_bahar.jpg" alt="Zard Bahar" />
-        <h3>Zard Bahar</h3>
-        <p>Mustard short kurti with mirror work</p>
-      </div>
+            <div className="collection-card">
+              <img src="/zard_bahar.jpg" alt="Zard Bahar" />
+              <h3>Zard Bahar</h3>
+              <p>
+                Mustard short kurti with hand mirror work. Lawn or light
+                khaddar. Rs. 2,950
+              </p>
+              <a href="https://wa.me/+92xxxxxxx" className="order-button">
+                Order on WhatsApp
+              </a>
+            </div>
 
-      <div className="collection-card">
-        <img src="/khaawb.webp" alt="Khwaab" />
-        <h3>Khwaab</h3>
-        <p>White co-ord set with tassel accents</p>
-      </div>
+            <div className="collection-card">
+              <img src="/khaawb.webp" alt="Khwaab" />
+              <h3>Khwaab</h3>
+              <p>
+                White co-ord set with tassel accents. Made with breathable
+                cotton. Rs. 3,750
+              </p>
+              <a href="https://wa.me/+92xxxxxxx" className="order-button">
+                Order on WhatsApp
+              </a>
+            </div>
 
-      <div className="collection-card">
-        <img src="/raat_rani.jpg" alt="Raat Rani" />
-        <h3>Raat Rani</h3>
-        <p>Midnight blue kaftan with star embroidery</p>
-      </div>
+            <div className="collection-card">
+              <img src="/raat_rani.jpg" alt="Raat Rani" />
+              <h3>Raat Rani</h3>
+              <p>
+                Midnight blue kaftan with subtle star embroidery. Lawn fabric.
+                Rs. 3,950
+              </p>
+              <a href="https://wa.me/+92xxxxxxx" className="order-button">
+                Order on WhatsApp
+              </a>
+            </div>
 
-      <div className="collection-card">
-        <img src="/sitaroon_ki_roshni.webp" alt="Sitaron Ki Roshni" />
-        <h3>Sitaron Ki Roshni</h3>
-        <p>Organza/khaddar dupatta with sequins</p>
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="collection-card">
+              <img src="/sitaroon_ki_roshni.webp" alt="Sitaron Ki Roshni" />
+              <h3>Sitaron Ki Roshni</h3>
+              <p>Organza/khaddar dupatta with light sequin work. Rs. 1,800</p>
+              <a href="https://wa.me/+92xxxxxxx" className="order-button">
+                Order on WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section id="order" className="order-section">
-  <div className="container">
-    <h2 className="section-title">How to Order</h2>
-    <p className="section-text">
-      Customers can place an order by messaging us directly on WhatsApp with:
-    </p>
-    <ul className="order-steps">
-      <li>✔️ Design Name</li>
-      <li>✔️ Size</li>
-      <li>✔️ Payment Option (Pre-payment or COD in Karachi)</li>
-    </ul>
+      <section id="order" className="order-section">
+        <h2>How to Order</h2>
+        <p>
+          1. DM us or click the WhatsApp button on your favorite design. <br />
+          2. Confirm your size & delivery details. <br />
+          3. Pay via bank transfer or Cash on Delivery (Karachi only). <br />✿
+          Shipping available across Pakistan.
+        </p>
+      </section>
 
-    <a
-      href="https://wa.me/92XXXXXXXXXX?text=Hi%20Tanabana%20Team%2C%20I%20want%20to%20order%20a%20design%20from%20your%20First%20Bloom%20collection."
-      target="_blank"
-      className="order-btn"
-    >
-      Order via WhatsApp
-    </a>
-  </div>
-</section>
+      <section id="contact" className="contact-section">
+        <h2>Contact</h2>
+        <p>
+          Email:{" "}
+          <a href="mailto:tanabanabysb@gmail.com">tanabanabysb@gmail.com</a>
+          <br />
+          Instagram:{" "}
+          <a href="https://instagram.com/tanabanabysb" target="_blank">
+            @tanabanabysb
+          </a>
+          <br />
+          WhatsApp:{" "}
+          <a href="https://wa.me/+92xxxxxxx" target="_blank">
+            0336-XXXXXXX
+          </a>
+        </p>
+      </section>
 
-<footer className="footer">
-  <div className="container">
-    <p className="footer-brand">Tanabana by SB ✿</p>
-    <p className="footer-contact">
-      Based in Karachi | DM on Instagram or WhatsApp to order
-    </p>
-    <div className="footer-socials">
-      <a href="https://instagram.com/tanabanabysb" target="_blank">Instagram</a>
-      <span>|</span>
-      <a href="mailto:hello@tanabanabysb.com">Email</a>
-    </div>
-    <p className="footer-copy">© {new Date().getFullYear()} Tanabana by SB. All rights reserved.</p>
-  </div>
-</footer>
-
-
+      <footer className="footer">
+        &copy; {new Date().getFullYear()} Tanabana by SB | Handmade with love in
+        Karachi
+      </footer>
     </main>
   );
 }
