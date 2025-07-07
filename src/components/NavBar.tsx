@@ -3,40 +3,41 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
-const Navbar = () => {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const navLinks = [
+  const links = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Collection', href: '#collection' },
     { name: 'Order', href: '#order' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <h1 className="nav-logo">Tanabana by SB ✿</h1>
+        <h1 className="nav-logo">Tanabana by SB</h1>
 
-        {/* Desktop Links */}
+        {/* Desktop Nav */}
         <div className="nav-links">
-          {navLinks.map((link) => (
+          {links.map((link) => (
             <Link key={link.name} href={link.href} className="nav-link">
               {link.name}
             </Link>
           ))}
         </div>
 
-        {/* Hamburger Menu Button */}
+        {/* Hamburger (Mobile) */}
         <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
           ☰
         </div>
       </div>
 
-      {/* Mobile Dropdown Links */}
+      {/* Mobile Menu */}
       {isOpen && (
         <div className="mobile-menu">
-          {navLinks.map((link) => (
+          {links.map((link) => (
             <Link
               key={link.name}
               href={link.href}
@@ -50,6 +51,4 @@ const Navbar = () => {
       )}
     </nav>
   );
-};
-
-export default Navbar;
+}
