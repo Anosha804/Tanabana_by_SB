@@ -106,7 +106,7 @@ export default function Home() {
           <br />
           WhatsApp:{" "}
           <a href="https://wa.me/+92xxxxxxx" target="_blank">
-            0336-XXXXXXX
+            +92xxxxxxx
           </a>
         </p>
       </section>
