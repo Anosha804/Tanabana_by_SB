@@ -5,7 +5,6 @@ export default function Home() {
     <main>
       <Navbar />
     <section id="home" className="hero-simple">
-  <img src="/flower_outline.png" alt="" className="flower-hero" />
   <h1>Tanabana by SB</h1>
   <p>Handmade ✿ Minimal ✿ Breathable</p>
 </section>
