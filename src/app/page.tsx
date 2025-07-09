@@ -4,10 +4,12 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <section id="home" className="hero-simple">
-        <h1>Tanabana by SB</h1>
-        <p>Handmade ✿ Minimal ✿ Breathable</p>
-      </section>
+    <section id="home" className="hero-simple">
+  <img src="/flower_outline.png" alt="" className="flower-hero" />
+  <h1>Tanabana by SB</h1>
+  <p>Handmade ✿ Minimal ✿ Breathable</p>
+</section>
+
 
       <section id="about" className="about-section">
         <h2>About Us</h2>
