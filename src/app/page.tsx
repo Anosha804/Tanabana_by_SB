@@ -4,14 +4,27 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-    <section id="home" className="hero-simple">
-  <h1>Tanabana by SB</h1>
-  <p>Handmade ✿ Minimal ✿ Breathable</p>
-</section>
 
+      {/* Hero Section */}
+      <section id="home" className="hero-simple">
+        <div className="hero-title">
+          <h1>Tanabana by SB</h1>
+          <img
+            src="/flower_outline.png"
+            alt="Flower"
+            className="hero-inline-flower"
+          />
+        </div>
+        <div className="hero-subtitle">
+          <p>Handmade ✿ Minimal ✿ Breathable</p>
+        </div>
+      </section>
 
+      {/* About Section */}
       <section id="about" className="about-section">
-        <h2>About Us</h2>
+        <div className="about-title">
+          <h2>About Us</h2>
+        </div>
         <p>
           Tanabana by SB is a Karachi-based slow fashion label offering
           aesthetic, breathable clothing stitched with cultural softness and
@@ -20,6 +33,16 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Divider */}
+      <div className="section-divider">
+        <img
+          src="/flower_outline.png"
+          alt="divider flower"
+          className="divider-flower"
+        />
+      </div>
+
+      {/* Collection Section */}
       <section id="collection" className="collection-section">
         <div className="container">
           <h2 className="section-title">First Bloom Collection 🌸</h2>
@@ -84,6 +107,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Divider */}
+      <div className="section-divider">
+        <img
+          src="/flower_outline.png"
+          alt="divider flower"
+          className="divider-flower"
+        />
+      </div>
+
+      {/* Order Section */}
       <section id="order" className="order-section">
         <h2>How to Order</h2>
         <p>
@@ -94,6 +127,16 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Divider */}
+      <div className="section-divider">
+        <img
+          src="/flower_outline.png"
+          alt="divider flower"
+          className="divider-flower"
+        />
+      </div>
+
+      {/* Contact Section */}
       <section id="contact" className="contact-section">
         <h2>Contact</h2>
         <p>
@@ -107,11 +150,12 @@ export default function Home() {
           <br />
           WhatsApp:{" "}
           <a href="https://wa.me/+92xxxxxxx" target="_blank">
-            +92xxxxxxx
+            +92XXXXXXX
           </a>
         </p>
       </section>
 
+      {/* Footer */}
       <footer className="footer">
         &copy; {new Date().getFullYear()} Tanabana by SB | Handmade with love in
         Karachi
